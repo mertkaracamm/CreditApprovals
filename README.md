@@ -12,7 +12,7 @@ Project Explanation:
   - In this way, a machine learning model is designed in Azure Machine Learning Tool.
   - This design are modelled in terms of WEKA and R script language results.
   - When the customer’s information are entered in form application, system requests to machine learning and then response a message from machine learning tool whether customer’s credit approval are risky or not.
-  - All details are documented as above source code section which is called # Credit_Approval_Analysis as pdf.
+  - All details are documented as above source code section which is called ##Credit_Approval_Analysis as pdf.
   
  Project Aim:
  
@@ -33,7 +33,8 @@ Project Explanation:
  
   - Weka
       
-         ![A](https://user-images.githubusercontent.com/102985575/198843157-a77fd66b-de10-4aa2-845a-bd90946886d3.png)
+       
+        ![A](https://user-images.githubusercontent.com/102985575/198843230-e86050c3-aef5-4fda-b127-ba6aba7f0fdb.png)
 
 
       
