@@ -31,6 +31,9 @@ Project Explanation:
   
  Used Technologies:
  
+ ![image](https://user-images.githubusercontent.com/102985575/198843297-54d32b9a-57d6-4067-8e38-ba89eb8b48de.png)
+
+ 
   - Weka
       
        
