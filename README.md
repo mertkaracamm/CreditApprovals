@@ -33,12 +33,13 @@ Project Explanation:
  
   - Weka
       
-          ![image](https://user-images.githubusercontent.com/102985575/198843091-31e7b7fa-f6cd-4d80-901d-5621aa18264a.png)
+         ![A](https://user-images.githubusercontent.com/102985575/198843157-a77fd66b-de10-4aa2-845a-bd90946886d3.png)
+
 
       
   - R script Language: R studio
           
-          ![image](https://user-images.githubusercontent.com/102985575/198843072-b08b0fba-518c-4717-bf24-40d8a5896e9b.png)
+         ![R](https://user-images.githubusercontent.com/102985575/198843163-fc4c4b47-0ebd-4998-8131-f38367ce4f66.png)
 
       
 
