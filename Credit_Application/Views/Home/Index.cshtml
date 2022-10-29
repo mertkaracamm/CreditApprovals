@@ -1,0 +1,218 @@
+﻿@model CreditApproval_Web.Models.CreditApplication
+
+@{
+    ViewBag.Title = "Credit Center";
+}
+
+<h2 style="color:#4169E1;">Credit Application Form</h2>
+
+<form action="#" method="post" style="color:#4169E1;" >
+    
+        
+    <table>
+        <tr>
+            <td>Checking Status:</td>
+            <td>
+                <select name="StatusOfExistingCheckingAccount">
+                    <option value="">Please Select</option>
+                    <option value="A11">< 0 TL</option>
+                    <option value="A12">0-200 TL</option>
+                    <option value="A13">> 200 TL</option>
+                    <option value="A14">No Checking</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Duration: </td>
+            <td>
+                <select name="DurationInMonths">
+                    <option value="">Please Select</option>
+                    <option value="3">3 Month</option>
+                    <option value="6">6 Month</option>
+                    <option value="12">12 Month</option>
+                    <option value="24">24 Month</option>
+                    <option value="36">36 Month</option>
+                    <option value="48">48 Month</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Credit History: </td>
+            <td>
+                <select name="CreditHistory">
+                    <option value="">Please Select</option>
+                    <option value="A30">no credits/all paid</option>
+                    <option value="A31">all paid</option>
+                    <option value="A32">existing paid</option>
+                    <option value="A33">delayed previously</option>
+                    <option value="A34">critical/other existing credit</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Purpose: </td>
+            <td>
+                <select name="Purpose">
+                    <option value="">Please Select</option>
+                    <option value="A40">new car</option>
+                    <option value="A41">used car</option>
+                    <option value="A42">furniture/equipment</option>
+                    <option value="A43">electronic</option>
+                    <option value="A44">domestic appliance</option>
+                    <option value="A45">repairs</option>
+                    <option value="A46">education</option>
+                    <option value="A47">vacation</option>
+                    <option value="A48">retraining</option>
+                    <option value="A49">business</option>
+                    <option value="A410">Other</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Credit Amount: </td>
+            <td><input type="text" name="CreditAmount" /></td>
+        </tr>
+        <tr>
+            <td>Saving Status: </td>
+            <td>
+                <select name="SavingsAccountBonds">
+                    <option value="">Please Select</option>
+                    <option value="A61">< 100 TL</option>
+                    <option value="A62">100-500 TL</option>
+                    <option value="A63">500-1000 TL</option>
+                    <option value="A64">> 1000 TL</option>
+                    <option value="A65">no known savings</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Employment: </td>
+            <td>
+                <select name="PresentEmploymentSince">
+                    <option value="">Please Select</option>
+                    <option value="A71">unemployed</option>
+                    <option value="A72">< 1 years</option>
+                    <option value="A73">1-4 years</option>
+                    <option value="A74">4-7 years</option>
+                    <option value="A75">>7 years</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Installment Commitment: </td>
+            <td><input type="text" name="InstallmentRate" /></td>
+        </tr>
+        <tr>
+            <td>Personal Status: </td>
+            <td>
+                <select name="PersonalStatusAndSex">
+                    <option value="">Please Select</option>
+                    <option value="A91">male div/sep</option>
+                    <option value="A92">female div/dep/mar</option>
+                    <option value="A93">male single</option>
+                    <option value="A94">male mar/wid</option>
+                    <option value="A95">>female single</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Guarantor: </td>
+            <td>
+                <select name="OtherDebtorsGuarantors">
+                    <option value="">Please Select</option>
+                    <option text="None" value="A101">None</option>
+                    <option value="A102">Co applicant</option>
+                    <option value="A103">Guarantor</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Residence Since: </td>
+            <td><input type="text" name="PresentResidenceSince" /></td>
+        </tr>
+        <tr>
+            <td>Property Magnitude: </td>
+            <td>
+                <select name="Property">
+                    <option value="">Please Select</option>
+                    <option value="A121">Real estate</option>
+                    <option value="A122">life insurance</option>
+                    <option value="A123">car</option>
+                    <option value="A124">no known property</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Age: </td>
+            <td><input type="text" name="AgeInYears" /></td>
+        </tr>
+        <tr>
+            <td>Other Payment Plans: </td>
+            <td>
+                <select name="OtherInstallmentPlans">
+                    <option value="">Please Select</option>
+                    <option value="A141">bank</option>
+                    <option value="A142">stores</option>
+                    <option value="A143">none</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Housing: </td>
+            <td>
+                <select name="Housing">
+                    <option value="">Please Select</option>
+                    <option value="A151">Rent</option>
+                    <option value="A152">Own</option>
+                    <option value="A153">For Free</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Existing Credits: </td>
+            <td><input type="text" name="NumberOfExistingCredits" /></td>
+        </tr>
+        <tr>
+            <td>Job: </td>
+            <td>
+                <select name="Job">
+                    <option value="">Please Select</option>
+                    <option value="A171">unemp/unskilled non res</option>
+                    <option value="A172">unskilled resident</option>
+                    <option value="A173">skilled</option>
+                    <option value="A174">high qualif/self emp/mgmt</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Number of Dependents </td>
+            <td><input type="text" name="NumberOfPeopleBeingLiableFor"  /></td>
+        </tr>
+        <tr>
+            <td>Own Telephone: </td>
+            <td>
+                <select name="Telephone">
+                    <option value="">Please Select</option>
+                    <option value="A191">No</option>
+                    <option value="A192">Yes</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Foreign Worker: </td>
+            <td>
+                <select name="ForeignWorker">
+                    <option value="">Please Select </option>
+                    <option value="A201">No</option>
+                    <option value="A202">Yes</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            
+            <td><input type="submit" value="Submit" /></td>
+            <td>@ViewData["ResultText"]  <b> @ViewData["CreditResult"] </b></td>
+        </tr>
+    </table>
+    
+</form>
