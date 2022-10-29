@@ -34,7 +34,7 @@ Project Explanation:
   - Weka
       
        
-        ![A](https://user-images.githubusercontent.com/102985575/198843230-e86050c3-aef5-4fda-b127-ba6aba7f0fdb.png)
+        ![image](https://user-images.githubusercontent.com/102985575/198843277-5e5c2e2d-b3fa-448e-8467-401a60962286.png)
 
 
       
